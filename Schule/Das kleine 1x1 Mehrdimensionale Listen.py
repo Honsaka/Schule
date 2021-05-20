@@ -1,0 +1,22 @@
+x = 1
+aer = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+x += 1
+ser = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+x += 1
+der = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+x += 1
+fer = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+x += 1
+ger = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+x += 1
+her = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+x += 1
+jer = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+x += 1
+ker = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+x += 1
+ler = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+x += 1
+yer = [x*1,x*2,x*3,x*4,x*5,x*6,x*7,x*8,x*9,x*10]
+zahlen = [aer,ser,der,fer,ger,her,jer,ker,ler,yer]
+print(zahlen)

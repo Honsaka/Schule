@@ -1,0 +1,39 @@
+.sudoku {
+    border: 3px solid black;
+    margin: auto;
+    width: 472px;
+    height: 472px;
+}
+.single-field {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+}
+.third-column {
+    border-right-width: 3px;
+}
+.tird-row {
+    border-bottom-width:3px;
+}
+.entry-field{
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    border: none;
+    padding: 5px;
+}
+.entry-field:focus{
+    outline: none;
+}
+.set-content{
+    font-family: Arial;
+    color: black;
+}
+.variable-content{
+    font-family: "Comic Sans MS";
+    color: #707070;
+}

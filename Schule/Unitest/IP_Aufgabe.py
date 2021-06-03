@@ -1,11 +1,11 @@
-def decimal_to_binary(IPadresse):
+def dicimal_to_binary(IPadresse):
     if IPadresse >= 128:
         IPadresse -= 128
         a = "1"
     else:
         a = "0"
     if IPadresse >= 64:
-        IPadresse -= 128
+        IPadresse -= 64
         b = "1"
     else:
         b = "0"
@@ -42,9 +42,17 @@ def decimal_to_binary(IPadresse):
     binaer = a+b+c+d+e+f+g+h
     return binaer
 
-def  binary_to_decimal (binaer):
-    if binaer = 10000000
-    binaer ==
-
+def  decimal_to_binary (IPadresse):
+    binaer = ""
+    b = 256
+    for i in range(8):
+        b /= 2
+        if IPadresse >= b:
+            IPadresse -= b
+            a = "1"
+        else:
+            a = "0"
+        binaer += a
+    return binaer
 #IPadresse = int(input("IP adresse in Dezimal"))
 #11111111 = 255
